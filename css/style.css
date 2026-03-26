@@ -21,7 +21,7 @@ body {
 }
 
 body {
-  font-family: "Manrope", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", sans-serif;
   background: radial-gradient(circle at 20% 0%, #ffffff, var(--bg) 42%);
   color: var(--text);
   line-height: 1.9;
@@ -130,6 +130,9 @@ body {
 .post-excerpt img {
   max-width: 100%;
   height: auto;
+  display: block;
+  border-radius: 10px;
+  margin: 0 0 1rem;
 }
 
 .post-excerpt pre,
